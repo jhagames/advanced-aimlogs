@@ -24,7 +24,6 @@ function sendToDiscord(name, message, color)
               ["description"] = message,
               ["footer"] = {
                   ["text"] = os.date("%x %X %p "),
-                  ["author"] = Made by Jacob-Stelios,
               },
           }
       }
